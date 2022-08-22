@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import '../App.css';
 export default function Die(props) {
     const styles = {
-        backgroundColor: props.isHeld ? "#59E391" : "fff"
+        backgroundColor: props.isHeld ? "#59E391" : "white"
 
     }
     return (

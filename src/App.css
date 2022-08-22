@@ -26,6 +26,7 @@ main{
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 20px;
+  margin-bottom: 40px;
 }
 
 .die-box{
@@ -63,3 +64,4 @@ main{
 .roll-btn:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
+
